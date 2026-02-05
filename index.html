@@ -112,6 +112,7 @@
     .footer a:hover { text-decoration: underline; }
   </style>
 </head>
+
 <body>
   <div class="wrap">
     <div class="nav">
@@ -122,12 +123,14 @@
           <div class="sub">Arcade • High score • Daily challenges</div>
         </div>
       </div>
+
       <div class="btns">
         <a class="btn primary"
            href="https://play.google.com/store/apps/details?id=com.callum.pixelplunge&utm_source=apac_med"
            target="_blank" rel="noopener">
           Play Now
         </a>
+
         <a class="btn"
            href="https://sites.google.com/view/pixelplungeprivacypolicy/home"
            target="_blank" rel="noopener">
@@ -136,10 +139,58 @@
       </div>
     </div>
 
-    <!-- rest of file unchanged -->
+    <div class="hero">
+      <div class="card heroText">
+        <h1>Drop in. Collect coins. Chase the high score.</h1>
+        <p class="tagline">
+          Pixel Plunge is a fast, feel-good arcade game with simple controls, satisfying upgrades,
+          and daily challenges to keep you coming back.
+        </p>
+        <div class="chips">
+          <div class="chip">Gather coins</div>
+          <div class="chip">High-score runs</div>
+          <div class="chip">Daily challenges</div>
+          <div class="chip">Quick sessions</div>
+        </div>
+      </div>
 
-    <script>
-      document.getElementById('y').textContent = new Date().getFullYear();
-    </script>
+      <div class="card imgBlock">
+        <img src="assets/feature-image.jpeg" alt="Pixel Plunge feature image" />
+        <div class="imgCaption">Feature art</div>
+      </div>
+    </div>
+
+    <div class="grid">
+      <div class="card imgBlock">
+        <img src="assets/Promo1.jpeg" alt="Pixel Plunge promo collage" />
+      </div>
+
+      <div class="card pad">
+        <div class="sectionTitle">Links</div>
+        <p class="sectionText">
+          • <a href="https://sites.google.com/view/pixelplungeprivacypolicy/home" target="_blank" rel="noopener">Privacy Policy</a>
+        </p>
+
+        <div style="height: 12px;"></div>
+
+        <div class="sectionTitle">About</div>
+        <p class="sectionText">
+          CDBoxgaming is a solo indie developer focused on creating simple, fun, and polished arcade experiences.
+          Pixel Plunge is our first released game, built as a passion project and a learning journey into game development.
+        </p>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div>© <span id="y"></span> Pixel Plunge</div>
+      <div>
+        <a href="https://sites.google.com/view/pixelplungeprivacypolicy/home" target="_blank" rel="noopener">Privacy Policy</a>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
