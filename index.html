@@ -159,26 +159,29 @@
       </div>
     </div>
 
-    <div class="grid">
-      <div class="card imgBlock">
-        <img src="assets/Promo1.jpeg" alt="Pixel Plunge promo collage" />
-      </div>
-
-      <div class="card pad">
-        <div class="sectionTitle">About</div>
-        <p class="sectionText">
-          CDBoxgaming is a solo indie developer focused on creating simple, fun, and polished arcade experiences.
-          Pixel Plunge is our first released game, built as a passion project and a learning journey into game development.
-        </p>
-      </div>
-
-    <div class="footer">
-      <div>© <span id="y"></span> Pixel Plunge</div>
-      <div>
-        <a href="https://sites.google.com/view/pixelplungeprivacypolicy/home" target="_blank" rel="noopener">Privacy Policy</a>
-      </div>
-    </div>
+   <div class="grid">
+  <div class="card imgBlock">
+    <img src="assets/Promo1.jpeg" alt="Pixel Plunge promo collage" />
   </div>
+
+  <div class="card pad">
+    <div class="sectionTitle">About</div>
+    <p class="sectionText">
+      CDBoxgaming is a solo indie developer focused on creating simple, fun, and polished arcade experiences.
+      Pixel Plunge is our first released game, built as a passion project and a learning journey into game development.
+    </p>
+  </div>
+</div> <!-- ✅ THIS was missing -->
+
+<div class="footer">
+  <div>© <span id="y"></span> Pixel Plunge</div>
+  <div>
+    <a href="https://sites.google.com/view/pixelplungeprivacypolicy/home"
+       target="_blank" rel="noopener">
+      Privacy Policy
+    </a>
+  </div>
+</div>
 
   <script>
     document.getElementById('y').textContent = new Date().getFullYear();
